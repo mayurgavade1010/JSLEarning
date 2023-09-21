@@ -1,0 +1,32 @@
+console.log("=================Assignment-2==================");
+console.log("====================Step-1=====================");
+console.log("-------------Before Initialization-------------");
+var bankName;
+console.log("Bank Name= "+bankName);
+console.log("Datatype= "+typeof bankName);
+console.log("-------------After Initialization-------------");
+var bankName="SBI Bank";
+console.log("Bank Name= "+bankName);
+console.log("Datatype= "+typeof bankName);
+console.log("====================Step-2=====================");
+var marks='90%';
+console.log("Marks= "+marks);
+console.log("Datatype= "+typeof marks);
+console.log("====================Step-3=====================");
+console.log("-------------Before Initialization-------------");
+var isWorking;
+console.log("Is Working= "+isWorking);
+console.log("Datatype= "+typeof isWorking);
+console.log("-------------After Initialization-------------");
+var isWorking=true;
+console.log("Is Working= "+isWorking);
+console.log("Datatype= "+typeof isWorking);
+console.log("====================Step-4=====================");
+console.log("--------------------(I)------------------------");
+var totalCount="Hundred and seven";
+console.log("Total Count= "+totalCount+"  "+"Datatype= "+typeof totalCount);
+console.log("--------------------(II)------------------------");
+var totalCount=107;
+console.log("Total Count= "+totalCount+"  "+"Datatype= "+typeof totalCount);
+
+
