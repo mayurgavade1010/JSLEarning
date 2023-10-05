@@ -7,8 +7,8 @@ for (let index = 0; index < arrayNumbers.length; index++) {
       console.log(element);
     }
 }
-console.log(`===================Step-1===================`);
-console.log(`Sum of the elements of  a given array `);
+console.log(`===================Step-2===================`);
+console.log(`Sum of the elements of  a given array  is :`);
 let sum=0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   sum=sum+arrayNumbers[index];
