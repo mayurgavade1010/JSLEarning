@@ -4,7 +4,7 @@ let professor=
    Education:"BE",
    Branch:"Computer",
    clg_name:"VidyaPratishthan",
-   Programming_language:["Java","html","python",".net","c++","R"],
+   Programming_language:["Java","html",".net","c++",],
     degree:
     {
         engineering:"CSE",
