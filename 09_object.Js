@@ -34,6 +34,7 @@ person.show();
 person.display=function(){
     console.log("I am inside a display function");
 }
+
 console.log(person);
 person.display();
 const personElon = {

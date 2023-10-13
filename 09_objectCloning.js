@@ -45,6 +45,7 @@ let stdJenny = {
     }  
 }
 let stdBill = JSON.parse(JSON.stringify(stdJenny)) // Deep clone when we have nested object
+console.log(typeof stdBill);
 
 stdBill.name= "Billgates";
 

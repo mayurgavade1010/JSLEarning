@@ -6,7 +6,9 @@ function Bank(bankName, city, pin){
         console.log(`Bank Details is: ${this.bankName} ${this.city} ${this.pin}`);
     }
 
+
 }
+
 const sbiBank = new Bank('SBI', 'Pune', 112233);
 console.log(sbiBank);
 console.log(sbiBank.bankName, sbiBank.city, sbiBank.pin);
