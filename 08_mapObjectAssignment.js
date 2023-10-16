@@ -10,12 +10,12 @@ class Bank{
         this.interest_rate=interest_rate;
     }
     }
-    const axis_bank=new Bank("Axis Bank","Pune",'Axis156545',265856,"8%");
-    const sbi_bank=new Bank("SBI Bank","Mumbai",'SBIN135852',262846,"11%");
-    const icici_bank=new Bank("ICICI Bank","Nagpur",'ICI200545',455866,"9%");
-    const kotak_bank=new Bank("Kotak Bank","Baramati",'KTK180045',865256,"8%");
-    const hdfc_bank=new Bank("HDFC Bank","Kondhawa",'HDFC002454',332654,"10%");
-    const punjab_bank=new Bank("Punjab Bank","Satara",'PUN156545',564856,"8%");
+    const axis_bank=new Bank("Axis Bank","Pune",4585654525,'Axis156545',"8%");
+    const sbi_bank=new Bank("SBI Bank","Mumbai",9856475258,'SBIN135852',"11%");
+    const icici_bank=new Bank("ICICI Bank","Nagpur",7858585615,'ICI200545',"9%");
+    const kotak_bank=new Bank("Kotak Bank","Baramati",2585286541,'KTK180045',"8%");
+    const hdfc_bank=new Bank("HDFC Bank","Kondhawa",7569542562,'HDFC002454',"10%");
+    const punjab_bank=new Bank("Punjab Bank","Satara",3215252655,'PUN156545',"8%");
 
     const map=new Map();
     map.set('Axis156545',axis_bank);
