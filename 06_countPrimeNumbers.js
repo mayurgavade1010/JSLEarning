@@ -3,7 +3,7 @@ const array = [11, 3, 6, 10, 43, 29, 50];
 function isPrime(num) {
    
     for (let i = 2; i < num; i++) {
-      if (num % i === 0) {
+      if (num % i == 0) {
         return false;
       }
     }
@@ -20,4 +20,4 @@ function isPrime(num) {
   }
   
   console.log(`Total prime numbers in the array: ${count}`);
-  
+

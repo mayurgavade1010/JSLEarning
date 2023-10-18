@@ -23,7 +23,7 @@ console.log(typeof setOfRollNum);
 for (const element of setOfRollNum) {
     console.log(element);
 }
-
+console.log(`-------------------------------------`);
 var arrayNumber = [22, 11, 44, 22, 77, 11];
 const setNum = new Set(arrayNumber);
 console.log(setNum);
