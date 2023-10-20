@@ -26,5 +26,5 @@ console.log(`Square of 7 is: ${result}`);
 
 var a=function A() {
     console.log('A');
-}()
+}();
 
