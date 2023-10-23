@@ -1,7 +1,7 @@
 const array =  [2, 5, 3, 2, 7, 11];
-const sum = array.reduce( (runningTotal, value)=>{
-    return runningTotal + value;
-}, 0);
+const sum = array.reduce( (runningTotal,value)=>{
+    return runningTotal+value;
+},0);
 console.log(sum);
 
 
