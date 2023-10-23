@@ -2,6 +2,7 @@ var show = function(){
     console.log(`Inside Function Expression...`);
 }
 show();
+console.log(typeof show);
 
 var add = function(value1, value2){
     console.log(value1+value2);

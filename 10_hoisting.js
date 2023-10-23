@@ -24,5 +24,5 @@ multiply();
 
 
 
-var num=7;
-console.log(num/2);
+var num=10;
+console.log(num/10);

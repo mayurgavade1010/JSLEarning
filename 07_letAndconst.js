@@ -30,4 +30,4 @@ addition();
 for (let index = 0; index < 3; index++) {
     console.log(index);  
 }
-// console.log(index); // Not allowed
+ //console.log(index); // Not allowed

@@ -13,3 +13,4 @@ var total=myHobby1.length+myHobby2.length+myHobby3.length;
 console.log("Sum of all characters are present in above hobbies= ",total);
 
 
+

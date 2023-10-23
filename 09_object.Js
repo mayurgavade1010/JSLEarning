@@ -36,7 +36,6 @@ person.display=function(){
 }
 
 console.log(person);
-person.display();
 const personElon = {
     name:"Elon Musk",
     age:54,
@@ -56,6 +55,7 @@ let elonCompanies=personElon.companies.tesla;
 console.log(elonCompanies);
 let elonKids=personElon.kidsName[0];
 console.log(elonKids);
+console.log(personElon.kidsName[personElon.kidsName.length-1]);
 console.log(personElon.kidsName.length);
 personElon.kidsName.push("Stew");
 console.log(personElon);

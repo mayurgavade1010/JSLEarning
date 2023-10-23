@@ -21,6 +21,7 @@ for (const index in arrayNumbers) {
    }
   
 }
+
 console.log(`Even elements in given array: ${even}`);
 console.log(`---------------------------------------------------------------------------------------------`);
 

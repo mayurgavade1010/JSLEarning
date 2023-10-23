@@ -1,5 +1,5 @@
 var greet = 'Good Morning';
-
+console.log(greet);
 console.log("========= length property =============");
 var totalLength = greet.length;
 console.log('Length of the string is: ', totalLength);
@@ -15,7 +15,7 @@ console.log('Last index char is: ', lastIndexChar);
 console.log('Char stored at index 5 is: ', greet.charAt(5));
 
 var lastIndexChar = greet.charAt(greet.length-3);
-console.log('Last index char is: ', lastIndexChar);
+console.log('Last index char is: ' ,lastIndexChar);
 console.log("========== concatenation =============== ");
 var firstName = "Jenny";
 var lastName = " Gates"
@@ -30,7 +30,7 @@ console.log('Index of M is: ', indexOfM);
 
  console.log('Index of char z:',greet.indexOf('z'));
  console.log('Index of char o is:', greet.indexOf('o'));
- console.log('Index of char D:',greet.indexOf('D'));
+ console.log('Index of char D:',greet.lastIndexOf('D'));
  console.log("========== trim() =============== ");
 var str = "   Good Afternoon  ";
 var lengthBeforeTrim = str.length;
@@ -62,6 +62,7 @@ console.log(result);
 console.log("========== split() =============== ");
 var result = greet.split(" ");
 console.log(result);
+console.log("After splitting the length :" ,result.length);
 
 //WAP to count the total number words
 var str = "I am UI Developer";

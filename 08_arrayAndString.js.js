@@ -1,6 +1,6 @@
 console.log(`================================ASsignment-1===============================`);
 
-const arrayNum=[11,3,4,11,4,7,3];
+const arrayNum=[11,3,4,11,4,7,11,3];
 console.log(`Given array is :${arrayNum}`);
 const newArr= [...new Set(arrayNum)];
 console.log(`----------------------Step-1(Using Set)----------------------------------`);

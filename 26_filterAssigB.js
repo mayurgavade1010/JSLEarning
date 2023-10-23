@@ -19,8 +19,7 @@ const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
 const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monica, emp_viny, emp_mahi];
 console.log(`Step1- Find the emplyee name who working in TCS company`);
-const arrayNamesTcs = arrayEmployees
-  .filter((employee) => {
+const arrayNamesTcs = arrayEmployees .filter((employee) => {
     return employee.emp_company =='TCS';
   });
 

@@ -14,7 +14,7 @@ console.log(result1);
 var result=malemarriageelegibility("male",17,"stew jobs")
 console.log(result);
 
-console.log("                                  ");
+console.log("     ");
 console.log('**female marriage eligibility**');
 console.log("                                  ");
 function femalemarriageelegibility(gender,age,girlname) {
