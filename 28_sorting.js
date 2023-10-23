@@ -1,6 +1,7 @@
 const frdNames = ['Jenny', "Bill", 'Stew', "Elon"];
 // Sorting in ascending order
 const sortedArray = frdNames.sort();
+console.log(frdNames);
 console.log(sortedArray);// ['Bill', 'Elon', 'Jenny', 'Stew']
 
 // Sorting in descending order
