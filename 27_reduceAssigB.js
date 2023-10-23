@@ -23,54 +23,58 @@ console.log(`Step1- Employees from 'Wipro' company`);
 
 
 const arrayNamesWipro = arrayEmps .filter((employee) => {
-    return employee.emp_company =='Wipro';
-  }).map((employee)=>{
-    return employee.emp_name;
-  });
- console.log(`Employee Name: ${arrayNamesWipro}`);
+  return employee.emp_company =='Wipro';
+});
+const wiproEmp=arrayNamesWipro.reduce((runningTotal,employee)=>{
+  runningTotal.push(employee.emp_name);
+  return runningTotal;
+},[])
+console.log(`Employee Name: ${wiproEmp}`);
  console.log(`----------------------------------------------------`);
 
   console.log(`Step2- Employees from 'IT' or 'HR' company`);
 
   const arrayDept=arrayEmps.filter((employee)=>{
 return employee.emp_dept=='IT' || employee.emp_dept=='HR';
-  }).map((employee)=>{
-            return employee.emp_name;
   });
-  console.log(`Employee Name: ${arrayDept}`);
+  const dept=arrayDept.reduce((runningTotal,employee)=>{
+    runningTotal.push(employee.emp_name);
+    return runningTotal;
+  },[]);
+  console.log(`Employee Name: ${dept}`);
   console.log(`-----------------------------------------------------`);
   console.log(`Step3- Employees which are ID gerater than 50`);
 
   const arrayId=arrayEmps.filter((employee)=>{
     return employee.emp_id>50;
-      }).map((employee)=>{
-                return employee.emp_name;
       });
-      console.log(`Employee Name: ${arrayId}`);
+      const id=arrayId.reduce((runningTotal,employee)=>{
+        runningTotal.push(employee.emp_name);
+        return runningTotal;
+      },[]);
+      console.log(`Employee Name: ${id}`);
       console.log(`-------------------------------------------------------------`);
 
   console.log(`Step4- Employees name starts with  'A', 'V' , 'M' `);
 
   const arrayNames=arrayEmps.filter((employee)=>{
     return employee.emp_name.startsWith('A') ||  employee.emp_name.startsWith('V') ||  employee.emp_name.startsWith('M') ;
-      }).map((employee)=>{
-                return employee.emp_name;
-      });
-      console.log(`Employee Name: ${arrayNames}`);
+      })
+      const startWith=arrayNames.reduce((runningTotal,employee)=>{
+                 runningTotal.push(employee.emp_name);
+                 return runningTotal;
+      },[]);
+      console.log(`Employee Name: ${startWith}`);
       console.log(`-------------------------------------------------------------`);
 
     console.log(`Step5- Average salary of all employee`);
 
-    const arraySalary=arrayEmps.filter((employee)=>{
-return  employee.emp_salary;
-    }).map((employee)=>{
-                return employee.emp_salary
-    });
-    const sum = arraySalary.reduce( (runningTotal, value)=>{
-        return runningTotal + value;
+    
+    const averageSalary= arrayEmps.reduce( (runningTotal, employee)=>{
+        return runningTotal + employee.emp_salary/arrayEmps.length;
     }, 0);
 // console.log(sum);    
-        let averageSalary=sum/arraySalary.length;
+  
         console.log(` Average salary of all employee: ${averageSalary}`);
         console.log(`-----------------------------------------------`);
       
@@ -78,14 +82,11 @@ console.log(`Step6- Average salary for 'IT' department`);
 
 const arraySalaryIT=arrayEmps.filter((employee)=>{
     return  employee.emp_dept=='IT';
-        }) .map((employee)=>{
-            return employee.emp_salary;
-});
+        })
 
-const total=arraySalaryIT.reduce((runningTotal,value)=>{
-    return runningTotal+value;
-});
-let average=total/arraySalaryIT.length;
+const average=arraySalaryIT.reduce((runningTotal,employee)=>{
+    return runningTotal+employee.emp_salary/arraySalaryIT.length;
+},0);
 console.log(`Average salary for IT department : ${average}`);
 
 
