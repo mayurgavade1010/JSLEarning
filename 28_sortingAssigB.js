@@ -36,9 +36,9 @@ newArr1.forEach( ( currentValue, index, array  ) => {
 console.log(`Employee Department: ${currentValue.emp_dept}, Employee id: ${currentValue.emp_id},  Employee company: ${currentValue.emp_company}, `);
 } );
 console.log(`-----------------------------------------------------------------------------------------------------------------`);
-console.log(`Step3- Sort the array in ascending order of employee salary and log their name, salary and company`);
+console.log(`Step3- Sort the array in descending order of employee salary and log their name, salary and company`);
 const newArr2=arrayEmps.sort((emp1,emp2)=>{
-    return emp1.emp_salary>emp2.emp_salary ? 1 : -1;
+    return emp1.emp_salary>emp2.emp_salary ? -1 : 1;
 });
 console.log(`Employee details:`);
 newArr2.forEach( ( currentValue, index, array  ) => {
