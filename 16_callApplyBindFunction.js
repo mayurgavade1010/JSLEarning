@@ -29,4 +29,5 @@ function productsDetails(iphone, laptop){
     console.log(`Iphone: ${iphone}, Laptop: ${laptop}`);
 }
 const newFunction = productsDetails.bind(stewPerson);
+console.log(newFunction);
 newFunction('iPhone 15', 'Mac book M2');
