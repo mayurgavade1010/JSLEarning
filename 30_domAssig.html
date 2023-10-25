@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1> HTML and JavaScript are crucial technologies</h1>
+            <p> The Web would not work without them...</p>
+        </div>
+       <div id="advantages">
+        <ul>
+           <li>flexible</li> 
+           <li>Available</li>
+           <li>Magical</li>
+        </ul>
+       </div>
+    </main>
+
+    <script>
+        const mainHeading=document.querySelector('h1');
+        console.log(mainHeading);
+        const secondAdvantage=document.querySelectorAll('li');
+            console.log(secondAdvantage[1]);
+        const advDiv=document.querySelector('#advantages');
+        console.log(advDiv);
+        
+    </script>
+</body>
+</html>
