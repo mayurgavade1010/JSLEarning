@@ -9,3 +9,4 @@ const nestedArray =  [ [2, 5], [4, 5, 6],[ 2, 7, 11] ];
 const arrayNum = nestedArray.flatMap( (element => element));
 
 console.log(arrayNum);
+
