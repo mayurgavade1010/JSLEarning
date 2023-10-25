@@ -1,6 +1,6 @@
 const setOfRollNum = new Set();
 setOfRollNum.add(11);
-setOfRollNum.add(22)
+setOfRollNum.add(22);
 setOfRollNum.add(11);
 setOfRollNum.add(33);
 setOfRollNum.add(22);
