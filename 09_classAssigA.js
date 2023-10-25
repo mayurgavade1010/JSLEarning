@@ -59,7 +59,7 @@ class College{
     }
 }
 const college1=new College('JSPM','SPPU',7,'Pune');
-//console.log("College-1",college1);
+// console.log("College-1",college1);
 const college2=new College('COEP','BATU',8,'Pune');
 //console.log("College-2",college2);
 const college3=new College('VidyaPratishthan','SPPU',6,'Baramati');
