@@ -3,7 +3,7 @@ function Bank(bankName, city, pin){
     this.city = city;
     this.pin = pin;
     this.show = function(){
-        console.log(`Bank Details is: ${this.bankName} ${this.city} ${this.pin}`);
+        console.log(`Bank Details is: ${this.bankName} ${this.city} ${this.pin} `);
     }
 
 
