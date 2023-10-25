@@ -4,7 +4,7 @@ const promiseNotes = new Promise(function(resolve, reject){
     if (isNotesPrepared) {
         resolve('Notes is prepared and here is the notes guys...') 
     }else{
-        reject("Sorry guys, I din't get time, Please prepare notes your self");
+        reject("Sorry guys, I didn't get time, Please prepare notes your self");
     }
 })
 promiseNotes.then( function(success){
@@ -18,5 +18,5 @@ promiseNotes.then( function(success){
 }).finally(function(){
     console.log(`========= finally block ============`);
     console.log('I must have notes... ');
-    console.log("05_conversion.jsIn case Sir won't share it, will prepare my self");
+    console.log("05_conversion.js In case Sir won't share it, will prepare my self");
 })
