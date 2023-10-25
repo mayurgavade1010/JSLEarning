@@ -4,4 +4,4 @@ function division(n1, n2=1){
 }
 division(10)
 console.log('============');
-division(10, 5)
+division(10, 5);
